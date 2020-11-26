@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ffff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/hero.png);
+    height: 5vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    margin: 0;
+    color: #FFB300;
+    margin-bottom: 20px;
+    font-size: 200%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+h2 {
+    margin: 50px 0;
+    color: #FFB300;
+    text-align: center;
+    font-size: 150%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+
+}
+
+h3 {
+    margin: 50px 0;
+    color: #FFB300;
+    text-align: center;
+    font-size: 150%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.main-nav {
+    float: right;
+    margin-top: 20px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 100%;
+    border-bottom: 2px transparent #FFF;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #FFB300;
+}
+
+.logo {
+    
+    font-size: 300%;
+    float: left;
+    color: #FFF;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 64px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    text-align: center;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #FFb300;
+    color: #FFB300;
+    transition: background-color 0.2s;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #FFB300;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #FFB300;
+    color: #FFF;
+}
+input {
+    display: inline-block;
+    border-color: #FFB300;
+    padding: 10px;
+    font-weight: 300;
+    border-radius: 200px;
+    text-align: center;
+}
+
+.login-form {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
